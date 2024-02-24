@@ -1,0 +1,33 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.36.0.
+--
+-- see: https://github.com/sol/hpack
+
+name:           stack-repro-num5536
+version:        0.0.0.0
+synopsis:       stack-repro-num5536 synopsis.
+description:    Longer stack-repro-num5536 description.
+homepage:       https://github.com/jship/stack-repro-num5536#readme
+bug-reports:    https://github.com/jship/stack-repro-num5536/issues
+author:         Jason Shipman
+maintainer:     Jason Shipman
+build-type:     Simple
+extra-source-files:
+    package.yaml
+
+source-repository head
+  type: git
+  location: https://github.com/jship/stack-repro-num5536
+
+library
+  exposed-modules:
+      Example
+  other-modules:
+      Paths_stack_repro_num5536
+  hs-source-dirs:
+      library
+  build-depends:
+      base
+    , dear-imgui
+  default-language: GHC2021

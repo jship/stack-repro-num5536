@@ -1,0 +1,19 @@
+name: stack-repro-num5536
+version: '0.0.0.0'
+github: jship/stack-repro-num5536
+author: Jason Shipman
+maintainer: Jason Shipman
+synopsis: stack-repro-num5536 synopsis.
+description: |
+  Longer stack-repro-num5536 description.
+
+extra-source-files:
+- package.yaml
+
+language: GHC2021
+
+library:
+  dependencies:
+  - base
+  - dear-imgui
+  source-dirs: library

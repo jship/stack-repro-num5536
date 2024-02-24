@@ -1,0 +1,15 @@
+resolver: lts-21.25
+packages:
+- ./stack-repro-num5536
+extra-deps:
+- git: https://github.com/haskell-game/dear-imgui.hs.git
+  commit: b48ef7904b10fe467b07088c452b6a64c1791409
+flags:
+  dear-imgui:
+    sdl: false
+    sdl-renderer: false
+    glfw: false
+    opengl2: false
+    opengl3: false
+    vulkan: false
+    examples: false
